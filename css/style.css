@@ -1,0 +1,44 @@
+body{
+    background-color: rgba(212, 204, 192, 0.555);
+}
+#section{
+    display: grid;
+    grid-template-rows: 5% 90%;
+    grid-template-columns: 5% 90% 5%;
+}
+#paint{
+    grid-column-start: 2;
+    grid-row-start: 2;
+    justify-self: center;
+    border: 2px solid black;
+}
+
+.hidden{
+    display: none;
+}
+#pop-up{
+    position: absolute;
+    z-index: 100;
+    margin-left: 25%;
+    background: black;
+    
+}        
+nav{
+    background-color: rgb(255, 251, 245);
+
+}
+.my_btn:hover{
+    transform: scale(1.1) !important;
+}
+.filters{
+    position: absolute;
+    z-index: 100;
+    margin-left: 8%;
+    width: 70%;
+    float: left;
+    background-color: rgb(255, 251, 245);
+}
+
+#test{
+    box-shadow: 2px ;
+}
