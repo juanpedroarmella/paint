@@ -12,7 +12,7 @@
 
 <body id="body">
     <nav id="nav" class="container">
-        <div class="row border border-2 border-dark border-top-0">
+        <div class="row border border-2 border-dark rounded">
             <div class="col m-2 b-2 ">
                 <button class="btn btn-dark m-md-4 bg-light my_btn" type="button" id="pencil">
                     <img src="img/pencil.png" alt="pencil" width="30" height="30"></button>
@@ -54,15 +54,15 @@
         </div>
     </nav>
     
-    <div id="pop-up" class="container w-50 text-center bg-light border border-2 border-dark mt-2">
+    <div id="pop-up" class="container w-50 text-center bg-light border border-2 border-dark mt-2 rounded">
         <p class="fs-3 bg-light">¿Cómo desea comenzar?</p>
         <input class="btn btn-dark m-lg-4 bg-light my_btn" style="color: black;" type="file" id="archivoModal"
             accept="image/png, .jpeg, .jpg, image/gif" style="color: black;"></input>
         <button class="btn btn-dark m-lg-4 bg-light my_btn" style="color: black;" id="close-pop-up" type="button">Fondo
             blanco</button>
     </div>
-    <section id="section">
-        <canvas id="paint" width="1280" height="450"></canvas>
+    <section id="section" >
+        <canvas id="paint" width="1280" height="450" class="rounded"></canvas>
     </section>
 
 
